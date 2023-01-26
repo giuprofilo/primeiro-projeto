@@ -1,5 +1,5 @@
 const textElement = document.getElementById('text')
-const optionButtonsElement = document.getElementById('option-buttons')
+const optionButtonsElement = document.getElementById('option-buttons') //git status On branch main / git add . / git push
 
 let state = {}
 
