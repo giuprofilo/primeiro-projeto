@@ -1,5 +1,7 @@
 const textElement = document.getElementById('text')
-const optionButtonsElement = document.getElementById('option-buttons') //git status On branch main / git add . / git push
+const elementoImagem = document.getElementById("imagem");
+const inicio = document.getElementById("inicio")
+const optionButtonsElement = document.getElementById('option-buttons')
 
 let state = {}
 
@@ -39,6 +41,10 @@ function selectOption(option) {
   showTextNode(nextTextNodeId)
 }
 
+/*function changeImage(filename){
+  let img = document.querySelector(#bannerImage);
+  img.setAttibute("src", filename);
+} */
 const textNodes = [
   {
     id: 1,
@@ -46,6 +52,7 @@ const textNodes = [
     options: [
       {
         text: 'Vai até a casa de Juliette para saber oque aconteceu',
+
         setState: { goToHouse: true },
         nextText: 2
       },
